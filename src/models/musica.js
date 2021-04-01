@@ -12,7 +12,7 @@ class Musica {
             
         } catch (error) {
             console.log(error)
-            res.status(400).json({message : 'Erro na Solicitação'})
+            res.status(400).json({message : 'Erro na Solicitação, verifique os valores da enviados'})
         }
     }
 }

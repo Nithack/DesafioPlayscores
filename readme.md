@@ -3,6 +3,13 @@ Desenvolva um microserviço (RESTful), em NodeJS, que é capaz de sugerir
 tracks baseadas no clima/localização de uma cidade (nome ou
 latitude/longitude) recebidos como parâmetro.
 
+
+### Docker Flag
+
+````
+docker run -d -p 8080:3000 -v "$(pwd):/var/www" -w "/var/www"  node npm start
+````
+
 ### Instalação
 
 ````
